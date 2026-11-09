@@ -1,6 +1,6 @@
 "use client";
 
-import { STATUS_LABELS, type Task, type TaskStatus } from "../.next/types/task";
+import { STATUS_LABELS, type Task, type TaskStatus } from "../types/task";
 import { isOverdue } from "../lib/date";
 
 type Props = {

@@ -1,6 +1,6 @@
 "use client";
 
-import { STATUS_LABELS, type TaskStatus } from "../.next/types/task";
+import { STATUS_LABELS, type TaskStatus } from "../types/task";
 
 // "all"(すべて)も選べるように型を広げる
 export type FilterValue = TaskStatus | "all";

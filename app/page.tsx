@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import TaskForm from "../components/TaskForm";
 import TaskItem from "../components/TaskItem";
 import TaskFilter, { type FilterValue } from "../components/TaskFilter";
-import type { NewTask, Task, TaskStatus } from "../.next/types/task";
+import type { NewTask, Task, TaskStatus } from "../types/task";
 import { loadTasks, saveTasks } from "../lib/storage";
 
 export default function Home() {

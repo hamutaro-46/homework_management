@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { NewTask } from "../.next/types/task";
+import type { NewTask } from "../types/task";
 
 // 親コンポーネントから受け取るもの(props)の型
 type Props = {
